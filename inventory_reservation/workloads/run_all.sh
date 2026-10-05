@@ -11,7 +11,7 @@ for test in \
   05_rollback_retry.sh \
   06_disjoint_progress.sh; do
   echo "==> $test"
-  "$DIR/$test"
+  bash "$DIR/$test"
 done
 
 echo "All supplied workloads passed."
